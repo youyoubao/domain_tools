@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a6c075c5d32e737226a62323688a76bb",
+    "packages": [
+        {
+            "name": "itbdw/ip-database",
+            "version": "v2.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itbdw/ip-database.git",
+                "reference": "134835a851b45d4cccd7ea33215c313de74c6aca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itbdw/ip-database/zipball/134835a851b45d4cccd7ea33215c313de74c6aca",
+                "reference": "134835a851b45d4cccd7ea33215c313de74c6aca",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "~5.4|~7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "itbdw\\Ip\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "马秉尧"
+                },
+                {
+                    "name": "itbdw",
+                    "email": "itbudaoweng@gmail.com",
+                    "homepage": "http://github.com/itbdw",
+                    "role": "Developer"
+                }
+            ],
+            "description": "IP位置数据库（解析为国家、省、市、县、运营商）",
+            "keywords": [
+                "China",
+                "Chinese",
+                "IP",
+                "database",
+                "location",
+                "位置",
+                "地区",
+                "数据库",
+                "纯真"
+            ],
+            "time": "2019-08-01T03:09:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
